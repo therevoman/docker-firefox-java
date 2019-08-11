@@ -10,7 +10,7 @@ How to execute:
 1.  Build the docker image
 
 
-    docker build -t="ktelep/docker-firefox-java" .
+    docker build -t="nrevo/docker-firefox-java" .
 
 
 2.  Start the container

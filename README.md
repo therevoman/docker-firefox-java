@@ -10,16 +10,16 @@ How to execute:
 1.  Build the docker image
 
 
-    docker build -t="ktelep/docker-firefox-java" .
+    docker build -t="nrevo/docker-firefox-java" .
 
 
 2.  Start the container
 
 
-    docker run -p 5900:5900 ktelep/docker-firefox-java x11vnc -forever -create 
+    docker run -p 5909:5900 nrevo/docker-firefox-java x11vnc -forever -create 
 
 
-3.  Connect to Firefox using your VNC client of choice on port 5900 
+3.  Connect to Firefox using your VNC client of choice on port 5909 
 
 
 You may wish to add a -v <localpath>:<containerpath> if you want to use Virtual Media or the like to mount ISOs for loading Operating Systems/etc. on servers.
